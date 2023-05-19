@@ -1,3 +1,30 @@
-body {
-    background-color: #e296b3 ;
-} 
+.cabeçalho {
+    background-color: #f777d0;
+    color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0;
+    font-size: 24px;
+}
+.cabeçalho-imagem{
+    width: 30%;
+}
+.cabeçalho-lista-item{
+    display: inline-block;
+    margin: 0 16 px;
+    padding: 24px 0;
+}
+.escola-imagem{
+    width:25% ;
+    }
+.escola {
+    background-image: linear-gradient(#f777d0,#9beed3);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.escola-conteudo{
+    width: 35%;
+    }
